@@ -1,0 +1,47 @@
+/* 전체 영역을 통틀어서 스타일 정의 */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* {
+    font-family: 'Nanum Gothic';
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: #bbbbbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* 내비게이션 영역 */
+/*.navbar-default {
+    background-color: #000000;
+    border-color: #000000;
+}*/
+
+/* 내비게이션 제목 색상 */
+/*.navbar-default .navbar-brand {
+    color: #ffffff;
+}*/
+
+/* 내비게이션에 마우스를 올렸을 때 */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: transparent;
+	color: #bbbbbb;
+}
+
+/* 내비게이션 기본 색상 */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 15px 0;
+}
